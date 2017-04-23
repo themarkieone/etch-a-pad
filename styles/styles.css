@@ -1,8 +1,23 @@
 h1 {
 	text-align: center;
 	margin: 0 auto;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 36px;
+}
+
+.container {
+	margin-left: 350px;
+	margin-right: 350px;
+
 }
 
 .unit {
-	
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	margin: 0 auto;
+}
+
+.unit:hover {
+	background-color: black;
 }
