@@ -18,6 +18,23 @@ h1 {
 	margin: 0 auto;
 }
 
-.unit:hover {
+
+.unit.enter	 {
+	box-shadow: none;
 	background-color: black;
+}
+
+button {
+	background-color: #4CAF50;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 8px;
+	left: 50%;
+	right: 50%;
+	position: relative;
+}
+
+button:hover {
+	background-color: white;
 }

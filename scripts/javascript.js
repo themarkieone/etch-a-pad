@@ -1,9 +1,15 @@
-//Make a grid out of divs, append with jQuery//
+//Make 600 grids and append to container div
 $(document).ready(function() {
 		for(var i = 0; i < 600; i++) {
-			$("<div class='unit'>O</div>").appendTo(".container");
+			$("<div class='unit'></div>").appendTo(".container");
 		}
+
 	
+	//Add permanent background color for when you hover over grids
+	$('.unit').one("mouseover", function() {
+			$(this).addClass('enter');
+	});
+
 });
 
 
