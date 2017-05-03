@@ -9,7 +9,11 @@ $(document).ready(function() {
 	$('.unit').one("mouseover", function() {
 			$(this).addClass('enter');
 	});
-
+	
+	$('.button').click(function () {
+		$('.unit').css("background-color", "white");
+		var reset = alert("Board is being reset!");
+	});
 });
 
 
